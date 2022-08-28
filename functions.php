@@ -1,0 +1,29 @@
+<?php
+
+// require MySQL Connection class...
+require 'database/DBController.php';
+
+// require Cart class...
+require 'database/cart.php';
+
+// require trade history class...
+require 'database/trade_history.php';
+
+// require Brand class...
+require 'database/Transaction.php';
+
+// DBController object...
+$db = new DBController();
+
+
+// Cart object...
+$cart = new Cart($db);
+
+// Cart object...
+$Cart = new Cart($db);
+
+// Cart object...
+$Trade_history = new TradeHistory($db);
+
+// Cart object...
+$Transaction = new Transaction($db);

@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+footer{
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+
+.home{
+  min-height: 90vh;
+  background:url("../assets/crypto_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#form_bg{
+  color: #fff;
+  font-size: 3vw;
+  font-family: arial;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  position: relative;
+  top: 50px;
+}
+
+#buy_sell_table{
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  position: relative;
+  top: 50px;
+}
+
+#portfolio_form{
+  color: #fff;
+  font-size: 3vw;
+  font-family: arial;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  position: relative;
+  top: 2%;
+}
+
+#portfolio_table{
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  position: relative;
+  top: 2%;
+}
